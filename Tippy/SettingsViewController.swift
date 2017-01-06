@@ -11,9 +11,11 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var tipChanger: UISegmentedControl!
+    @IBOutlet weak var background: UIImageView!
     
     override func viewWillAppear(_ animated: Bool) {
         
+        //Save default tip value that is set
         let defaults = UserDefaults.standard;
         let defTip = defaults.integer(forKey: "defaultTip")
         tipChanger.selectedSegmentIndex = defTip
@@ -35,8 +37,8 @@ class SettingsViewController: UIViewController {
         let defTip = tipChanger.selectedSegmentIndex
         let defaults = UserDefaults.standard
         
+        //Save value of defTip into key "defaultTip"
         defaults.set(defTip, forKey: "defaultTip")
-        
         defaults.synchronize()
         
     }
