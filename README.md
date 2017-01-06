@@ -10,8 +10,8 @@ Time spent: 5 hours spent in total
 
 The following **required** functionality is complete:
 
-* [] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [] Settings page to change the default tip percentage.
+* [y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [y] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
 * [ ] UI animations
@@ -23,12 +23,15 @@ The following **additional** features are implemented:
 
 - [] List anything else that you can get done to improve the app functionality!
 * Added an image view to allow for a background with an image in the folder (added a second image for background but didn't have time to implement it; will do so later')
+* Added a settings view controller to configure the default tip and have the new value reflected in the view controller
+* Accessed UserDefaults to save data
+* Will be adding animations and other optional features when I have more time
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a video walkthrough:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/a/awmwQ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
