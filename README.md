@@ -10,8 +10,8 @@ Time spent: 5 hours spent in total
 
 The following **required** functionality is complete:
 
-* [y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [y] Settings page to change the default tip percentage.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
 * [ ] UI animations
@@ -26,6 +26,7 @@ The following **additional** features are implemented:
 * Accessed UserDefaults to save data
 * Did make bill amount the first responder but didn't have time to make keyboard always visible'
 * Will be adding animations and other optional features when I have more time
+* Added a splash screen
 
 ## Video Walkthrough 
 
